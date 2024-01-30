@@ -1,0 +1,39 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    margin: 50px;
+    padding: 20px;
+    width: 1000px;
+    height: 600px;
+
+}
+
+
+.image-gallery {
+    padding: 50px;
+    background-color: antiquewhite;
+    border: solid 5px rgb(43, 138, 198);
+    text-align: center;
+}
+
+.image-gallery__ig{
+    padding-bottom: 10px;
+}
+
+.line-1 {
+    height: 30px;
+    border-top:  5px solid rgb(107, 102, 102);
+    width: 830px;
+}  
+
+.img-one img{
+
+    border-style: solid;
+    border-width: 3px;
+}
