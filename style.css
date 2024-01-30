@@ -1,109 +1,197 @@
 *{
-    margin: 0;
     padding: 0;
+    margin: 0;
 }
 
 body{
-    font-family: 'Roboto', sans-serif;
+    font-family: 'Poppins', sans-serif;
 }
 
 .container{
-    padding: 20px;
-    padding-left: 20px;
-    margin: 10px;
+    padding: 10px; 
     display: flex;
-    flex-direction: row;
-    flex-wrap: wrap;
-    gap: 30px;
-    justify-content: space-around;
+    justify-content: space-evenly;
 }
 
-.title{
-    background-color: palevioletred;
-    width: 90%;
+.geg-one{
+padding-top: 30px;
+background-color: black;
+display:block;
+height: 200px;
+width: 100%;
+text-align: center;
+font-size: 300%;
+color: white;
+}
+
+.geg-two{
+    padding-bottom: 10px;
+    margin-bottom: 10px;
+    text-align: center;
+    display: block-inline;
+}
+
+.geg-three{
+   background-color: #ffebce80;
+   margin: 20px; 
+   border:5px solid;
+   display: inline-block;
+   float: left;
+   text-align: center;
+   width:400px;
+}
+
+.geg-three__button{
+    background-color: black;
+    color: white;
+    border: none;
+    padding: 8px;
+    width: 30%;
+    margin:5px;
+    outline: 0;
+    text-align: center;
+    font-weight: 600;
+    font-style: normal;
+    cursor: pointer;
+}
+
+.geg-three__button:hover{
+    background-color:rgba(156, 255, 80, 0.962);
+    color: black;
+    font-weight: bolder;
+}
+
+.geg-four{
+    background-color: #ffebce80;
+    margin: 20px; 
+    border:5px solid;
+    display: inline-block;
+    float: left;
+    text-align: center;
+    width:400px;
+ }
+ 
+ .geg-four__button{
+     background-color: black;
+     color: white;
+     border: none;
+     padding: 8px;
+     width: 30%;
+     margin:5px;
+     outline: 0;
+     text-align: center;
+     font-weight: 600;
+     font-style: normal;
+     cursor: pointer;
+ }
+ 
+ .geg-four__button:hover{
+     background-color:rgba(156, 255, 80, 0.962);
+     color: black;
+     font-weight: bolder;
+ }
+
+ .geg-five{
+    background-color: #ffebce80;
+    margin: 20px; 
+    border:5px solid;
+    display: inline-block;
+    float: left;
+    text-align: center;
+    width:400px;
+ }
+ 
+ .geg-five__button{
+     background-color: black;
+     color: white;
+     border: none;
+     padding: 8px;
+     width: 30%;
+     margin:5px;
+     outline: 0;
+     text-align: center;
+     font-weight: 600;
+     font-style: normal;
+     cursor: pointer;
+ }
+ 
+ 
+ .geg-five__button:hover{
+     background-color:rgba(156, 255, 80, 0.962);
+     color: black;
+     font-weight: bolder;
+ }
+
+ .geg-six{
+    background-color: #ffebce80;
+    margin: 20px; 
+    border:5px solid;
+    display: inline-block;
+    text-align: center;
+    width:400px;
+ }
+ 
+ .geg-six__button{
+     background-color: black;
+     color: white;
+     border: none;
+     padding: 8px;
+     width: 30%;
+     margin:5px;
+     display: inline-block;
+     outline: 0;
+     text-align: center;
+     font-weight: 600;
+     font-style: normal;
+     cursor: pointer;
+ }
+ 
+ .geg-six__button:hover{
+     background-color:rgba(156, 255, 80, 0.962);
+     color: black;
+     font-weight: bolder;
+ }
+
+
+ .geg-seven,.geg-seven__email,.geg-seven__name,.geg-seven__number{
+    color: white;
+    background-color: black;
+    border:1px;
+    border-bottom:solid 1px;
     padding: 10px;
-    margin-bottom: 50px;
-    margin-top: 20px;
-    display: flex;
-    flex-direction: row;
-    flex-wrap: wrap;
-    justify-content: center;  
-}
+    padding-left: 50px;
+    display:list-item;
 
-.h1,h2{
+ }
+
+ .geg-send{
+    background-color: black;
+    color: white;
     padding: 5px;
-}
+    font-weight: 900;
+    cursor: pointer;
+    border: solid cornsilk 2px;
 
-.box-one{
+ }
+
+ .geg-send:hover{
+    background-color: rgb(255, 160, 160);
+    color: rgb(0, 0, 0);
+ }
+
+.back{
     background-color: black;
     color: white;
-    width: 250px;
-    height: 280%;
-    border-radius: 20px;
-    padding: 40px;
+    padding: 5px;
+    font-weight: 900;
+    cursor: pointer;
+    border: solid cornsilk 2px;  
+}
+
+.back:hover{
+    background-color: rgb(255, 160, 160);
+    color: rgb(0, 0, 0);
+}
+ .geg-footer{
     text-align: center;
-
-}
-
-.box-one__free{
-    font-size: 20px;
-    text-align: left;
-    border-radius: 25px;
-    border: 2px solid #ffffff;
-    padding: 20px;
-    padding-left: 30px; 
-    width: 200px;
-    height: 150px;
-    display: flex;
-    flex-wrap: wrap;
-    text-align: left;
-}
-
-.box-two{
-    background-color: black;
-    color: white;
-    width: 250px;
-    height: 280%;
-    border-radius: 20px;
-    padding: 40px;
-    text-align: center;
-}
-
-.box-two__free{
-    font-size: 20px;
-    text-align: left;
-    border-radius: 25px;
-    border: 2px solid #ffffff;
-    padding: 20px;
-    padding-left: 30px; 
-    width: 200px;
-    height: 150px;
-    display: flex;
-    flex-wrap: wrap;
-    text-align: left;
-}
-
-.box-three{
-    background-color: black;
-    color: white;
-    width: 250px;
-    height: 280%;
-    border-radius: 20px;
-    padding: 40px;
-    text-align: center;
-}
-
-.box-three__free{
-    font-size: 20px;
-    text-align: left;
-    border-radius: 25px;
-    border: 2px solid #ffffff;
-    padding: 20px;
-    padding-left: 30px; 
-    width: 200px;
-    height: 150px;
-    display: flex;
-    flex-wrap: wrap;
-    flex-direction: row;
-    text-align: left;
-}
+ }
